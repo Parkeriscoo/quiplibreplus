@@ -13,7 +13,9 @@
 <div id="nameDiv"></div><div id="pointsDiv"></div>
 <div id="prevDiv"></div>
 <div id="playDiv" style="font-size: 10vh;">
-  Enter a room name <input id="roomBox"></input> then <button onclick="join(roomBox.value)">Join</button> or <button onClick='host(roomBox.value)'>Host</button> <button onClick="https://raw.githubusercontent.com/Parkeriscoo/quiplibreplus/master/quiplibre.html">Download the game</button>
+  Enter a room name <input id="roomBox"></input> then <button onclick="join(roomBox.value)">Join</button> or <button onClick='host(roomBox.value)'>Host</button> <form action="https://raw.githubusercontent.com/Parkeriscoo/quiplibreplus/master/quiplibre.html">
+    <input type="submit" value="Download Quiplibre Plus" />
+</form>
 </div>
 <form id="form" onSubmit="sendAnswer()" target="playDiv" formaction="#" style="display: none;">
     <input id="inputBox"></input><input type="submit" value="Submit"></input>
