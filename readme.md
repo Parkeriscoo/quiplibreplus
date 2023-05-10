@@ -1,14 +1,14 @@
-Quiplibre
+Quiplibre Plus
 =========
 
-This is Quiplibre, a Free Software alternative to Quiplash.
+This is Quiplibre Plus, a modded version of [Quiplibre](https://github.com/wyattscarpenter/quiplibre) and a Free Software alternative to [Quiplash](https://www.jackboxgames.com/quiplash/)
 
 ## How do I work this?
-Quiplibre is available by viewing quiplibre.html in a web browser. You can either download the html file and view it locally, or visit https://wyattscarpenter.github.io/quiplibre/ on your phone or computer or whatever.
+Quiplibre Plus is available by viewing quiplibre.html in a web browser. You can either download the html file and view it locally, or visit https://parkeriscoo.github.io/quiplibreplus/ on your phone or computer or whatever.
 
 Once you are looking at quiplibre, you will be given a chance to host a new game or join a game as a player.
 
-NOTE: You must be connected to the internet to play quiplibre.
+NOTE: You must be connected to the internet to play quiplibre plus.
 
 ## I'm playing during a pandemic and all my friends are in different houses, can we still play?
 
@@ -23,7 +23,7 @@ You might want to make a copy of the unaltered prompts first and put it somewher
 Yeah, I couldn't be bothered. If you'd like to try to spruce Quiplibre up, go right ahead :)
 
 ## What do I do if I think of a good prompt (or other contribution) I'd like to submit?
-Raise an issue or submit a pull request on https://github.com/wyattscarpenter/quiplibre. Only submit prompts you have the legal right and volition to release under the project's license, though. Don't be stealing copyrighted works to submit as Quiplash prompts!
+Raise an issue or submit a pull request on https://github.com/parkeriscoo/quiplibreplus. Only submit prompts you have the legal right and volition to release under the project's license, though. Don't be stealing copyrighted works to submit as Quiplash prompts!
 
 ## What's the license of this project?
 
@@ -45,3 +45,5 @@ This project is released under the license found in [license.txt](license.txt). 
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 This project depends on various other things, such as PeerJS, unpkg.com, the text of license.txt, Google's STUN server, and your browser's WebRTC capabilities, which are not our responsibility and which are released under their own terms.
+
+ill edit the readme later lol
