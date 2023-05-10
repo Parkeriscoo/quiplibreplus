@@ -29,7 +29,7 @@ if(window.location.hash){join(window.location.hash.substring(1))};
 
 function toQuiplibreSlug(s){return s.toLowerCase().replace(/[^a-z0-9]/g, "");}
 function toQuiplibreRoomId(s){return "quiplibre_"+toQuiplibreSlug(s);}
-function errorAlert(error){
+function join(error){
   alert("There has been a networking error; if you find yourself unable to play, please refresh the page.\n"+error);
   console.log(error);
 }
@@ -37,7 +37,7 @@ function errorAlert(error){
 function join(name){
   roomid = toQuiplibreRoomId(name);
   var peer = new Peer({debug: 3});
- peer.on('error', https://parkeriscoo.github.io/quiplibreplus#(name);
+ peer.on('error', errorAlert);
 	peer.on('open', function(id) {
     console.log('My peer ID is: ' + id);
     conn = peer.connect(roomid);
@@ -53,11 +53,11 @@ function join(name){
   becomeSmallScreen(name);
 }
 
-function host(name){
+function errorAlert(name){
   //connect
   roomid = toQuiplibreRoomId(name);
   var peer = new Peer(roomid,{debug: 3});
-  peer.on('error', errorAlert);
+  peer.on('error', join);
   peer.on('open', function(id) {
     console.log('My peer ID is: ' + id);
     peer.on('connection', function(conn){
