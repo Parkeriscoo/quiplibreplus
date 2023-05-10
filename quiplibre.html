@@ -37,7 +37,7 @@ function errorAlert(error){
 function join(name){
   roomid = toQuiplibreRoomId(name);
   var peer = new Peer({debug: 3});
-  peer.on('error', host);
+  peer.on('error', host(name));
   peer.on('open', function(id) {
     console.log('My peer ID is: ' + id);
     conn = peer.connect(roomid);
