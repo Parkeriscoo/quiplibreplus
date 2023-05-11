@@ -49,7 +49,7 @@ function join(name){
   roomid = toQuiplibreRoomId(name);
   var peer = new Peer({debug: 3});
  peer.on('error', errorAlert);
-	peer.on('open', function(id) {
+    peer.on('open', function(id) {
     console.log('My peer ID is: ' + id);
     conn = peer.connect(roomid);
     conn.on('open', function() {
