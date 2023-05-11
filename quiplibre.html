@@ -30,8 +30,10 @@ if(window.location.hash){join(window.location.hash.substring(1))};
 
 function toQuiplibreSlug(s){return s.toLowerCase().replace(/[^a-z0-9]/g, "");}
 function toQuiplibreRoomId(s){return "quiplibre_"+toQuiplibreSlug(s);}
+function toQuiplibreSlug(s){return s.toLowerCase().replace(/[^a-z0-9]/g, "");}
+function toQuiplibreRoomId(s){return "quiplibre_"+toQuiplibreSlug(s);}
 function errorAlert(error){
-    alert("There has been a networking error; if you find yourself unable to play, please refresh the page.\n"+error);
+  alert("There has been a networking error; if you find yourself unable to play, please refresh the page.\n"+error);
   console.log(error);
 }
 
@@ -53,7 +55,6 @@ function join(name){
   });
   becomeSmallScreen(name);
 }
-
 
 function host(name){
   //connect
@@ -78,7 +79,6 @@ function host(name){
   });
   becomeBigScreen(name);
 }
-
 
 //big screen stuff
 function becomeBigScreen(name){
