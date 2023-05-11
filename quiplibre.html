@@ -19,7 +19,7 @@
     <input id="inputBox"></input><input type="submit" value="Submit"></input>
 </form>
 <div id="buttonDiv" style="display: none;">
-  <button id="startButton" onClick="nextRound()">start the game</button> <button onclick="screenPlayer()">Be player</button>
+  <button id="startButton" onClick="nextRound()">start the game</button> <button onclick="screenPlayer()">be player</button>
 </div>
 <script src="http://quiplibreplus.com/peerjs.min.js"></script>
 <script>
@@ -80,7 +80,7 @@ function host(name){
   becomeBigScreen(name);
 }
 
-function screenPlayer(){
+function screenPlayer(name){
   roomid = toQuiplibreRoomId(name);
   var peer = new Peer({debug: 3});
  peer.on('error', errorAlert);
