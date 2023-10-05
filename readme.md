@@ -1,7 +1,7 @@
 Quiplibre Plus
 =========
 
-This is Quiplibre Plus, a modded version of [Quiplibre](https://github.com/wyattscarpenter/quiplibre) and a Free Software alternative to [Quiplash](https://www.jackboxgames.com/quiplash/)
+This is Quiplibre Plus, a modified version of [Quiplibre](https://github.com/wyattscarpenter/quiplibre) and a Free Software alternative to [Quiplash](https://www.jackboxgames.com/quiplash/)
 
 ## How do I work this?
 Quiplibre Plus is available by viewing quiplibre.html in a web browser. You can either download the html file and view it locally, or visit http://quiplibreplus.com/ on your phone or computer or whatever.
